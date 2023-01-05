@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flex</title>
+</head>
+<style>
+    body.body {
+        padding: 0 120px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav.navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav.navbar .menu-kiri a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    nav.navbar .menu-tengah {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+    }
+
+    nav.navbar .menu-tengah a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 16px;
+    }
+
+    nav.navbar .menu-kanan {
+        display: flex;
+        gap: 10px;
+    }
+
+    nav.navbar .menu-kanan a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    nav.navbar .menu-kanan .instagram {
+        background-color: red;
+    }
+
+    nav.navbar .menu-kanan .whatsapp {
+        background-color: green;
+    }
+
+    .hero {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .hero .box {
+        width: 50%;
+        height: 400px;
+    }
+
+    .hero .box-1 h1 {
+        max-width: 400px;
+        text-align: left;
+    }
+
+    .hero .box-1 p {
+        max-width: 500px;
+        text-align: justify;
+        margin-bottom: 24px;
+    }
+
+    .hire-button {
+        background-color: #7868e6;
+        padding: 16px 40px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+</style>
+<body class="body">
+    <nav class="navbar">
+        <div class="menu-kiri">
+            <a href=""><h1>Rachel <span style="color: blue;">Setyawan</span></h1></a>
+        </div>
+        <div class="menu-tengah">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="" class="">About</a></li>
+            <li><a href="" class="">Contact</a></li>
+            <li><a href="" class="">Portofolio</a></li>
+        </div>
+        <div class="menu-kanan">
+            <a href="" class="instagram">Instagram</a>
+            <a href="" class="whatsapp">WhatsApp</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="box box-1">
+            <h1>Hi, I'm Rachel Setyawan Frontend Developer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates ea consectetur, tempora repellat nisi quibusdam magnam, aperiam fugit quisquam explicabo minus excepturi iste aut eveniet suscipit repudiandae. Quae, nesciunt.</p>
+            <a href="" class="hire-button">Hire Me</a>
+        </div>
+        <div class="box box-2">
+            <img src="Hero-img-bg.png" alt="" sizes="" srcset="" width="100%" loading="lazy" draggable="false">
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright by - Rachel Setyawan - XI RPL 2
+    </div>
+</body>
+</html>
