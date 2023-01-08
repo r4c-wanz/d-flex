@@ -98,10 +98,32 @@ nav.navbar .menu-kanan .whatsapp {
     justify-content: space-between;
 }
 
+.spesailis {
+    margin-top: 30px;
+}
+
+.spesialis .title {
+    text-align: center;
+}
+
+.spesialis .wrapper-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 18px;
+    border-top: #7868E6 solid 4px;
+    width: 306px;
+    height: 270px;
+    box-shadow: 0px 24px 34px rgba(199, 201, 217, 0.25);
+}
+
 .footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .footer a {
