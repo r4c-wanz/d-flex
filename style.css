@@ -1,0 +1,131 @@
+body {
+    padding: 0 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.navbar a {
+    text-decoration: none;
+}
+
+nav.navbar a h1 {
+    color: #000000;
+}
+
+nav.navbar .menu-tengah {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav.navbar .menu-tengah a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav.navbar .menu-kanan {
+    display: flex;
+    gap: 10px;
+}
+
+nav.navbar .menu-kanan a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav.navbar .menu-kanan .instagram {
+    background-color: red;
+}
+
+nav.navbar .menu-kanan .whatsapp {
+    background-color: green;
+}
+
+.hero {
+    display: flex;
+    margin-top: 30px;
+}
+
+.hero .box {
+    width: 50%;
+    height: 400px;
+}
+
+.hero .box-1 h1 {
+    max-width: 400px;
+    text-align: left;
+}
+
+.hero .box-1 p {
+    max-width: 500px;
+    text-align: justify;
+    margin-bottom: 24px;
+}
+
+.hire-button-hero {
+    background-color: #7868e6;
+    padding: 16px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.recent-client {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.recent-client .title {
+    width: 40%;
+}
+
+.recent-client .wrapper-img-recent-client {
+    width: 60%;
+}
+
+.recent-client , .wrapper-img-recent-client div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a h1 {
+    color: #000000;
+}
+
+.footer .menu-kanan {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer .menu-kanan span a {
+    color: #000000;
+}
+
+.hire-button-footer {
+    background-color: #7868e6;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
